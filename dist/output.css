@@ -522,7 +522,109 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-red-500 {
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.bg-\[url\(\'https\:\/\/digitalassets\.tesla\.com\/tesla-contents\/image\/upload\/h_1153\2c w_2688\2c c_fit\2c f_auto\2c q_auto\:best\/Model-3-Interior-Carousel-Slide-2-Desktop-LHD\'\)\] {
+  background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1153,w_2688,c_fit,f_auto,q_auto:best/Model-3-Interior-Carousel-Slide-2-Desktop-LHD');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: "Gotham Book";
+
+  src: url("../public/GothamBook.ttf")
+}
+
+* {
+  font-family: "Gotham Book", sans-serif;
+}
+
+.hover\:rounded-full:hover {
+  border-radius: 9999px;
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:inline {
+    display: inline;
+  }
 }
